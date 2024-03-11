@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Cloud Flash Cards</title>
+    <title>Apprentice Interview App</title>
 </head>
 <body>
     <header>
         <h1 id="interview-header">David's Interview Practice</h1>
     </header>
     <main>
-        <div class="flashcard-container">
-
+        <div class="question-container">
             <div class="flashcard">
                 <div class="card-front">
                     <p id="question"></p>
-                    <button id="show-definition-button">Next</button>
+                    <button id="next-question-button">Next</button>
                 </div>
             </div>
-            
+        </div>
+        <div id="button-container">
+            <button id="portfolio-button" class="option-button selected">Portfolio Questions</button>
+            <button id="project-button" class="option-button">Project Questions</button>
         </div>
     </main>
 <script src="script.js"></script>    
