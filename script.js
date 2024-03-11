@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
   let questions = [];
   let usedQuestions = [];
 
@@ -97,4 +96,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Default to JavaScript questions
   portfolioButton.click();
-});
