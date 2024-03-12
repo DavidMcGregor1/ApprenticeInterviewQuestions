@@ -94,5 +94,4 @@
     toggleToProjectQuestions();
   });
 
-  // Default to JavaScript questions
   portfolioButton.click();
