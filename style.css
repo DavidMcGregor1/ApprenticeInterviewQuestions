@@ -76,7 +76,7 @@ header {
     background-color: #01DEB2;
     border-radius: 40px;
     border: none;
-    margin-top: 15%;
+    /* margin-top: 15%; */
 }
 
 #next-question-button:hover {
